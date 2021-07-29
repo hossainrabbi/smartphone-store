@@ -1,14 +1,16 @@
 import {
+    AppBar,
     Badge,
     Button,
+    Container,
+    Grid,
     IconButton,
     InputBase,
     makeStyles,
+    Toolbar,
 } from '@material-ui/core';
-import { Container } from '@material-ui/core';
-import { AppBar, Grid, Toolbar } from '@material-ui/core';
-import ShoppingCartRoundedIcon from '@material-ui/icons/ShoppingCartRounded';
 import SearchIcon from '@material-ui/icons/Search';
+import ShoppingCartRoundedIcon from '@material-ui/icons/ShoppingCartRounded';
 import React from 'react';
 
 const useStyles = makeStyles((theme) => ({
